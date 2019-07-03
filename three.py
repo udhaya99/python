@@ -4,7 +4,7 @@ if(not n.isalnum()):
    print("consonants")
 elif(n in list1):
   print("vowels")
-else
+else:
   print("invalid")
   
 
