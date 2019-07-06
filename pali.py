@@ -1,6 +1,10 @@
 n1=int(input())
-n2=n1[::-1]
-if(n1==n2):
+r=0
+temp=n1
+while(temp!=0):
+  r=(r*10)+(temp%10)
+  temp=temp//10
+if(n1==r):
   print("Yes")
 else:
   print("No")
