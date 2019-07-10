@@ -1,2 +1,2 @@
-str=input()
-print(str.append(.))
+stl=input()
+print(stl+'.')
