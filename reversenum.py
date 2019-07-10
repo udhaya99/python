@@ -5,6 +5,5 @@ while(num>0):
   z=num%10
   num=num//10
   rev=rev*10+z
-if(rev==num):
-  print("Yes")
+print(rev)
   
