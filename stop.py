@@ -1,2 +1,3 @@
 stl=input()
-print(stl+'.')
+stl=stl+'.'
+print(stl)
