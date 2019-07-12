@@ -1,3 +1,4 @@
+n=int(input())
 val=input().split()
 a=[]
 for i in sorted(val):
