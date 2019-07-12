@@ -6,6 +6,6 @@ for i in range(a,b+1):
     if(i%j==0):
       f=1
       break
-   if(f==0):
+  if(f==0):
     c=c+1
 print(c)
