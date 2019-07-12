@@ -4,6 +4,6 @@ for i in range(0,len(n)):
   if(n[i]==m[i]):
     a=a+1
 if(len(n)==(a+1)):
-    print("Yes")
+    print("yes")
 else:
-  print("No")
+  print("no")
