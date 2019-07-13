@@ -1,10 +1,10 @@
-n,m=input().split()
-l=len(n) if len(n)<len(m) else len(m)
-d=abs(len(n)-len(m))
+a,b=input().split()
+l=len(a) if len(a)<len(b) else len(b)
+d=abs(len(a)-len(b))
 count=d
 for i in range(l):
-  if(len(m)==1 and m[i] in n):
+  if(len(b)==1 and b[i] in a):
     break
-  if(n[i]!=m[i]):
+  if(a[i]!=b[i]):
     count+=1
 print(count)
