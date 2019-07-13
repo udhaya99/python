@@ -1,9 +1,9 @@
-p = int(input())
-q = list(map(int,input().split()))
+a = int(input())
+b = list(map(int,input().split()))
 c = 0
-for i in range(p):
-    for j in range(i,p):  
-        for k in range(j,p):
-            if q[i]<q[j]<q[k]:
+for i in range(a):
+    for j in range(i,a):  
+        for k in range(j,a):
+            if b[i]<b[j]<b[k]:
                 c+=1
 print(c) 
